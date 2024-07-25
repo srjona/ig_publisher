@@ -1,0 +1,92 @@
+{
+  "resourceType": "Practitioner",
+  "id": "e8bc83dc-e0ff-41df-94f1-c00e4799cf52",
+  "meta": {
+    "profile": [
+      "https://team-a-hl7.org/fhir/StructureDefinition/VetPractitioner"
+    ]
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+57(600)919-2200",
+      "use": "work"
+    },
+    {
+      "system": "phone",
+      "value": "+57(300)191-0022",
+      "use": "mobile"
+    }
+  ],
+  "qualification": [
+    {
+      "id": "VetProffesional",
+      "code": {
+        "coding": [
+          {
+            "code": "106290006",
+            "system": "http://snomed.info/sct",
+            "display": "Veterinarian (occupation)"
+          }
+        ],
+        "text": "Veterinario"
+      },
+      "identifier": [
+        {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "code": "LN",
+                "display": "License number"
+              }
+            ]
+          },
+          "use": "official",
+          "value": "TP-7649328645"
+        }
+      ],
+      "period": {
+        "start": "2000-09-12"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "code": "PN",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Person Number"
+          }
+        ]
+      },
+      "value": "923468712364"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Espinoza Silva",
+      "given": [
+        "Diego"
+      ],
+      "text": "Diego Espinoza Silva"
+    }
+  ],
+  "address": [
+    {
+      "city": "Medellín",
+      "text": "Avenida Siempre Viva 123",
+      "postalCode": "64545",
+      "country": "Colombia",
+      "state": "Antioquia",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1974-03-11"
+}

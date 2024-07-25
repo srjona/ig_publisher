@@ -1,0 +1,104 @@
+{
+  "resourceType": "Composition",
+  "id": "b23c8355-c570-4948-a025-3cef2c6ed2f7",
+  "meta": {
+    "profile": [
+      "https://team-a-hl7.org/fhir/StructureDefinition/VetComposition"
+    ]
+  },
+  "identifier": {
+    "system": "http://myvet.example.com/document-identifier",
+    "value": "4dad935c-a7bd"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "code": "18842-5",
+        "system": "http://loinc.org",
+        "display": "Discharge summary"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "11503-0",
+          "system": "http://loinc.org",
+          "display": "Medical records"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "PetPatient/64765015-97b9-4391-bab2-c6b821527adc"
+  },
+  "date": "2023-03-28T09:23:45-05:00",
+  "author": [
+    {
+      "reference": "VetPractitioner/e8bc83dc-e0ff-41df-94f1-c00e4799cf52"
+    }
+  ],
+  "custodian": {
+    "reference": "VetOrganization/9bab292b-736c-4ce8-86b4-a004264fc7d9"
+  },
+  "title": "HISTORIA CLÍNICA VETERINARIA",
+  "section": [
+    {
+      "title": "Anamnesis",
+      "entry": [
+        {
+          "reference": "PetRelatedPerson/521a75f2-2781-417a-989e-abd462cc6624"
+        }
+      ]
+    },
+    {
+      "title": "Examen físico general",
+      "entry": [
+        {
+          "reference": "PetTypeCoat/238734586325"
+        },
+        {
+          "reference": "PetWeight/453452453"
+        },
+        {
+          "reference": "PetParticularSigns/R3453435"
+        },
+        {
+          "reference": "PetOrigin/FEGR45533"
+        },
+        {
+          "reference": "PetZootechnicalPurpose/2343324"
+        }
+      ]
+    },
+    {
+      "title": "Abordaje diagnóstico"
+    },
+    {
+      "title": "Exámenes complementarios y resultados"
+    },
+    {
+      "title": "Diagnóstico presuntivo y justificado"
+    },
+    {
+      "title": "Diagnóstico definitivo"
+    },
+    {
+      "title": "Plan terapéutico"
+    },
+    {
+      "title": "Pronóstico"
+    },
+    {
+      "title": "Evolución"
+    },
+    {
+      "title": "Observaciones"
+    },
+    {
+      "title": "Anexos"
+    }
+  ]
+}

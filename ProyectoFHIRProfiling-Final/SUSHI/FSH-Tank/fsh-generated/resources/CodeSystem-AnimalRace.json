@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AnimalRace",
+  "id": "AnimalRace",
+  "title": "AnimalRace",
+  "description": "Codes of the different Animal Races",
+  "url": "http://team-a-hl7.org/fhir/CodeSystem/AnimalRaceCs",
+  "concept": [
+    {
+      "code": "BIRD",
+      "display": "Pajaro",
+      "concept": [
+        {
+          "code": "CANARY",
+          "display": "Canario"
+        },
+        {
+          "code": "COCKATOO",
+          "display": "Cacatua"
+        },
+        {
+          "code": "CROWN",
+          "display": "Cuervo"
+        }
+      ]
+    },
+    {
+      "code": "FELINE",
+      "display": "Felino",
+      "concept": [
+        {
+          "code": "ANGORA",
+          "display": "Angora"
+        },
+        {
+          "code": "PERSIAN",
+          "display": "Persa"
+        },
+        {
+          "code": "SIBERIAN",
+          "display": "Siberiano"
+        }
+      ]
+    },
+    {
+      "code": "CANINE",
+      "display": "Canino",
+      "concept": [
+        {
+          "code": "PUG",
+          "display": "Pug"
+        },
+        {
+          "code": "GERMANSHEPARD",
+          "display": "Pastor Alemán"
+        },
+        {
+          "code": "PUDDLE",
+          "display": "French Puddle"
+        }
+      ]
+    }
+  ],
+  "version": "4.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "count": 12
+}

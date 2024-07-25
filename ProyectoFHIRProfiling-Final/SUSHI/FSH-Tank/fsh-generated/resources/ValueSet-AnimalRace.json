@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AnimalRace",
+  "id": "AnimalRace",
+  "title": "Animal Race Value Set",
+  "description": "Codes of the Animal Race types",
+  "url": "http://team-a-hl7.org/fhir/ValueSet/AnimalRaceList",
+  "version": "4.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://team-a-hl7.org/fhir/CodeSystem/AnimalRaceCs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "2343324",
+  "meta": {
+    "profile": [
+      "https://team-a-hl7.org/fhir/StructureDefinition/PetZootechnicalPurpose"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://www.bmc.nl/zorgportal/identifiers/observations",
+      "value": "6323"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "10210-3",
+        "system": "http://loinc.org",
+        "display": "Physical findings of General status Narrative"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "PetPatient/64765015-97b9-4391-bab2-c6b821527adc"
+  },
+  "effectivePeriod": {
+    "start": "2013-04-02T09:30:10+01:00"
+  },
+  "issued": "2013-04-03T15:30:10+01:00",
+  "performer": [
+    {
+      "reference": "VetPractitioner/e8bc83dc-e0ff-41df-94f1-c00e4799cf52"
+    }
+  ],
+  "valueString": "El propósito de este animal, es brindar compañía a su dueño"
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "outputFile": "CodeSystem-AnimalRace.json",
+    "fshName": "AnimalRace",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystems\\AnimalRaceCs.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "CodeSystem-AnimalSpecie.json",
+    "fshName": "AnimalSpecie",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystems\\AnimalSpecieCs.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-VetOrganizationCs.json",
+    "fshName": "VetOrganizationCs",
+    "fshType": "CodeSystem",
+    "fshFile": "CodeSystems\\VetOrganizationCs.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Composition-b23c8355-c570-4948-a025-3cef2c6ed2f7.json",
+    "fshName": "b23c8355-c570-4948-a025-3cef2c6ed2f7",
+    "fshType": "Instance",
+    "fshFile": "Instances\\b23c8355-c570-4948-a025-3cef2c6ed2f7.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Observation-2343324.json",
+    "fshName": "2343324",
+    "fshType": "Instance",
+    "fshFile": "Instances\\PetMeasurements\\2343324.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-238734586325.json",
+    "fshName": "238734586325",
+    "fshType": "Instance",
+    "fshFile": "Instances\\PetMeasurements\\238734586325.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-453452453.json",
+    "fshName": "453452453",
+    "fshType": "Instance",
+    "fshFile": "Instances\\PetMeasurements\\453452453.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-FEGR45533.json",
+    "fshName": "FEGR45533",
+    "fshType": "Instance",
+    "fshFile": "Instances\\PetMeasurements\\FEGR45533.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-R3453435.json",
+    "fshName": "R3453435",
+    "fshType": "Instance",
+    "fshFile": "Instances\\PetMeasurements\\R3453435.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Organization-9bab292b-736c-4ce8-86b4-a004264fc7d9.json",
+    "fshName": "9bab292b-736c-4ce8-86b4-a004264fc7d9",
+    "fshType": "Instance",
+    "fshFile": "Instances\\9bab292b-736c-4ce8-86b4-a004264fc7d9.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "Patient-64765015-97b9-4391-bab2-c6b821527adc.json",
+    "fshName": "64765015-97b9-4391-bab2-c6b821527adc",
+    "fshType": "Instance",
+    "fshFile": "Instances\\64765015-97b9-4391-bab2-c6b821527adc.fsh",
+    "startLine": 1,
+    "endLine": 42
+  },
+  {
+    "outputFile": "Practitioner-e8bc83dc-e0ff-41df-94f1-c00e4799cf52.json",
+    "fshName": "e8bc83dc-e0ff-41df-94f1-c00e4799cf52",
+    "fshType": "Instance",
+    "fshFile": "Instances\\e8bc83dc-e0ff-41df-94f1-c00e4799cf52.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "RelatedPerson-521a75f2-2781-417a-989e-abd462cc6624.json",
+    "fshName": "521a75f2-2781-417a-989e-abd462cc6624",
+    "fshType": "Instance",
+    "fshFile": "Instances\\521a75f2-2781-417a-989e-abd462cc6624.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-AnimalGenderStatus.json",
+    "fshName": "AnimalGenderStatus",
+    "fshType": "Extension",
+    "fshFile": "Extensions\\AnimalGenderStatus.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-AnimalRace.json",
+    "fshName": "AnimalRace",
+    "fshType": "Extension",
+    "fshFile": "Extensions\\AnimalRace.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-AnimalSpecie.json",
+    "fshName": "AnimalSpecie",
+    "fshType": "Extension",
+    "fshFile": "Extensions\\AnimalSpecie.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-PetOrigin.json",
+    "fshName": "PetOrigin",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetOrigin.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-PetOwnerRelatedPerson.json",
+    "fshName": "PetOwnerRelatedPerson",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetOwnerRelatedPerson.fsh",
+    "startLine": 1,
+    "endLine": 58
+  },
+  {
+    "outputFile": "StructureDefinition-PetParticularSigns.json",
+    "fshName": "PetParticularSigns",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetParticularSigns.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-PetPatient.json",
+    "fshName": "PetPatient",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetPatient.fsh",
+    "startLine": 1,
+    "endLine": 55
+  },
+  {
+    "outputFile": "StructureDefinition-PetTypeCoat.json",
+    "fshName": "PetTypeCoat",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetTypeCoat.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-PetWeight.json",
+    "fshName": "PetWeight",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetWeight.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-PetZootechnicalPurpose.json",
+    "fshName": "PetZootechnicalPurpose",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\PetZootechnicalPurpose.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-VetComposition.json",
+    "fshName": "VetComposition",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\VetComposition.fsh",
+    "startLine": 1,
+    "endLine": 49
+  },
+  {
+    "outputFile": "StructureDefinition-VetOrganization.json",
+    "fshName": "VetOrganization",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\VetOrganization.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "StructureDefinition-VetPractitioner.json",
+    "fshName": "VetPractitioner",
+    "fshType": "Profile",
+    "fshFile": "Profiles\\VetPractitioner.fsh",
+    "startLine": 1,
+    "endLine": 65
+  },
+  {
+    "outputFile": "ValueSet-AnimalGenderStatus.json",
+    "fshName": "AnimalGenderStatus",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets\\AnimalGenderStatus.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-AnimalRace.json",
+    "fshName": "AnimalRace",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets\\AnimalRaceVs.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-AnimalSpecie.json",
+    "fshName": "AnimalSpecie",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets\\AnimalSpecieVs.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-VetOrganizationValueSet.json",
+    "fshName": "VetOrganizationValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "ValueSets\\VetOrganizationVs.fsh",
+    "startLine": 1,
+    "endLine": 10
+  }
+]

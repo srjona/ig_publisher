@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AnimalSpecie",
+  "id": "AnimalSpecie",
+  "title": "AnimalSpecie",
+  "description": "Codes of the different Animal Species",
+  "url": "http://team-a-hl7.org/fhir/CodeSystem/AnimalSpecieCs",
+  "concept": [
+    {
+      "code": "BIRD",
+      "display": "Pajaro"
+    },
+    {
+      "code": "FELINE",
+      "display": "Felino"
+    },
+    {
+      "code": "CANINE",
+      "display": "Canino"
+    }
+  ],
+  "version": "4.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "count": 3
+}

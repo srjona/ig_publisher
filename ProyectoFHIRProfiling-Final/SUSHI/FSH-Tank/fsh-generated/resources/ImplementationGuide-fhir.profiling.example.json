@@ -1,0 +1,298 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.profiling.example",
+  "url": "https://example.org/fhir/ImplementationGuide/fhir.profiling.example",
+  "version": "0.1",
+  "name": "ExampleProfilingIG",
+  "title": "HL7 FHIR Implementation Guide: FHIR profiling course project | Team A",
+  "status": "draft",
+  "date": "2024-02-15",
+  "publisher": "HL7 Colombia - Official Affiliate of Health Level Seven International",
+  "contact": [
+    {
+      "name": "HL7 Colombia - Official Affiliate of Health Level Seven International",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7co.org"
+        },
+        {
+          "system": "email",
+          "value": "nombre@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Carolina Rodriguez",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "carolina.rodriguez@example.org",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Juan Pérez",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "juan.perez@example.org",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "An example of IG FHIR learning using SUSHI and FSH tools for the design and publication of HL7 FHIR profiles and implementation guides.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.profiling.example",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Observation/2343324"
+        },
+        "name": "2343324",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetZootechnicalPurpose"
+      },
+      {
+        "reference": {
+          "reference": "Observation/238734586325"
+        },
+        "name": "238734586325",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetTypeCoat"
+      },
+      {
+        "reference": {
+          "reference": "Observation/453452453"
+        },
+        "name": "453452453",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetWeight"
+      },
+      {
+        "reference": {
+          "reference": "RelatedPerson/521a75f2-2781-417a-989e-abd462cc6624"
+        },
+        "name": "521a75f2-2781-417a-989e-abd462cc6624",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetOwnerRelatedPersonProfile"
+      },
+      {
+        "reference": {
+          "reference": "Patient/64765015-97b9-4391-bab2-c6b821527adc"
+        },
+        "name": "64765015-97b9-4391-bab2-c6b821527adc",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetPatient"
+      },
+      {
+        "reference": {
+          "reference": "Organization/9bab292b-736c-4ce8-86b4-a004264fc7d9"
+        },
+        "name": "9bab292b-736c-4ce8-86b4-a004264fc7d9",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/VetOrganization"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/AnimalGenderStatus"
+        },
+        "name": "Animal GenderStatus Value Set",
+        "description": "Codes of the Animal Gender Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/AnimalRace"
+        },
+        "name": "Animal Race Value Set",
+        "description": "Codes of the Animal Race types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/AnimalSpecie"
+        },
+        "name": "Animal Specie Value Set",
+        "description": "Codes of the Animal Specie types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AnimalGenderStatus"
+        },
+        "name": "AnimalGenderStatus",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AnimalRace"
+        },
+        "name": "AnimalRace",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/AnimalRace"
+        },
+        "name": "AnimalRace",
+        "description": "Codes of the different Animal Races",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/AnimalSpecie"
+        },
+        "name": "AnimalSpecie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/AnimalSpecie"
+        },
+        "name": "AnimalSpecie",
+        "description": "Codes of the different Animal Species",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/e8bc83dc-e0ff-41df-94f1-c00e4799cf52"
+        },
+        "name": "e8bc83dc-e0ff-41df-94f1-c00e4799cf52",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/VetPractitioner"
+      },
+      {
+        "reference": {
+          "reference": "Observation/FEGR45533"
+        },
+        "name": "FEGR45533",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetOrigin"
+      },
+      {
+        "reference": {
+          "reference": "Composition/b23c8355-c570-4948-a025-3cef2c6ed2f7"
+        },
+        "name": "HISTORIA CLÍNICA VETERINARIA",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/VetComposition"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetOrigin"
+        },
+        "name": "PetOrigin",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetOwnerRelatedPerson"
+        },
+        "name": "PetOwnerRelatedPerson",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetParticularSigns"
+        },
+        "name": "PetParticularSigns",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetPatient"
+        },
+        "name": "PetPatient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetTypeCoat"
+        },
+        "name": "PetTypeCoat",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetWeight"
+        },
+        "name": "PetWeight",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/PetZootechnicalPurpose"
+        },
+        "name": "PetZootechnicalPurpose",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/R3453435"
+        },
+        "name": "R3453435",
+        "exampleCanonical": "https://team-a-hl7.org/fhir/StructureDefinition/PetParticularSigns"
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/VetOrganizationValueSet"
+        },
+        "name": "Vet Organization Value Set",
+        "description": "Codes of the Organanization types including Veterinarian",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/VetComposition"
+        },
+        "name": "VetComposition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/VetOrganization"
+        },
+        "name": "VetOrganization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/VetOrganizationCs"
+        },
+        "name": "VetOrganizationCs",
+        "description": "Codes of the Organanization types including Veterinarian",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/VetPractitioner"
+        },
+        "name": "VetPractitioner",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "STU1"
+      }
+    ]
+  }
+}

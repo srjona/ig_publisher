@@ -1,0 +1,55 @@
+{
+  "resourceType": "Organization",
+  "id": "9bab292b-736c-4ce8-86b4-a004264fc7d9",
+  "meta": {
+    "profile": [
+      "https://team-a-hl7.org/fhir/StructureDefinition/VetOrganization"
+    ]
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+57(600)919-2200",
+      "use": "work"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://team-a-hl7.org/fhir/CodeSystem/VetOrganizationCs",
+          "code": "VET",
+          "display": "Veterinarian Healtcare Provider"
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "code": "TAX",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Tax ID number"
+          }
+        ]
+      },
+      "value": "960000000-0"
+    }
+  ],
+  "active": true,
+  "name": "MI CONSULTORIO VETRINARIO",
+  "address": [
+    {
+      "use": "work",
+      "text": "Kra 7 No. 39-60",
+      "city": "Bogotá D.C.",
+      "district": "Chapinero",
+      "state": "Bogotá D.C.",
+      "postalCode": "110000",
+      "country": "CO"
+    }
+  ]
+}

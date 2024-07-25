@@ -1,0 +1,140 @@
+{
+  "resourceType": "Patient",
+  "id": "64765015-97b9-4391-bab2-c6b821527adc",
+  "meta": {
+    "profile": [
+      "https://team-a-hl7.org/fhir/StructureDefinition/PetPatient"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://team-a-hl7.org/fhir/StructureDefinition/AnimalSpecie",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://team-a-hl7.org/fhir/CodeSystem/AnimalSpecieCs",
+            "code": "FELINE",
+            "display": "Felino"
+          }
+        ]
+      },
+      "id": "patient-species"
+    },
+    {
+      "url": "http://team-a-hl7.org/fhir/StructureDefinition/AnimalRace",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://team-a-hl7.org/fhir/CodeSystem/AnimalRaceCs",
+            "code": "ANGORA",
+            "display": "Angora"
+          }
+        ]
+      },
+      "id": "patient-race"
+    },
+    {
+      "url": "http://team-a-hl7.org/fhir/StructureDefinition/AniamalGenderStatus",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/animal-genderstatus",
+            "code": "neutered",
+            "display": "Neutered"
+          }
+        ]
+      },
+      "id": "patient-gender-status"
+    }
+  ],
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "224150009",
+              "display": "Pet ownership (observable entity)"
+            }
+          ]
+        }
+      ],
+      "name": {
+        "family": "Reyes López",
+        "given": [
+          "María",
+          "Cristina"
+        ]
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+57(601)111-1111",
+          "use": "home"
+        },
+        {
+          "system": "phone",
+          "value": "+57(300)222-2222",
+          "use": "home"
+        },
+        {
+          "system": "email",
+          "value": "propietario@example.com"
+        }
+      ],
+      "address": {
+        "use": "home",
+        "text": "Cll 140 # 7B-75",
+        "city": "Bogotá D.C",
+        "state": "Bogotá D.C.",
+        "postalCode": "110121",
+        "country": "CO"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "MR",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Medical record number"
+          }
+        ]
+      },
+      "system": "http://MyVet.example.com/animal-ehr/",
+      "value": "EHR-349827304"
+    },
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "MCN",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "display": "Microchip Number"
+          }
+        ]
+      },
+      "system": "http://MyPet.example.com/animal-id/",
+      "value": "941091276493756"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "Michi"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2017-03-21",
+  "link": [
+    {
+      "other": {
+        "reference": "PetOwnerRelatedPerson/521a75f2-2781-417a-989e-abd462cc6624"
+      },
+      "type": "refer"
+    }
+  ]
+}

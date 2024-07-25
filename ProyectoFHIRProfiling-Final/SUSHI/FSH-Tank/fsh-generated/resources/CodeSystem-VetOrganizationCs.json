@@ -1,0 +1,21 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "VetOrganizationCs",
+  "id": "VetOrganizationCs",
+  "title": "VetOrganizationCs",
+  "description": "Codes of the Organanization types including Veterinarian",
+  "url": "http://team-a-hl7.org/fhir/CodeSystem/VetOrganizationCs",
+  "concept": [
+    {
+      "code": "VET",
+      "display": "Veterinarian Healtcare Provider",
+      "definition": "An organization that provides healthcare services from pets."
+    }
+  ],
+  "version": "4.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "count": 1
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VetOrganizationValueSet",
+  "id": "VetOrganizationValueSet",
+  "title": "Vet Organization Value Set",
+  "description": "Codes of the Organanization types including Veterinarian",
+  "url": "http://team-a-hl7.org/fhir/ValueSet/VetOrganizationList",
+  "version": "4.0.1",
+  "experimental": true,
+  "purpose": "This FHIR resource type CodeSystem has been created for educational purposes.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://team-a-hl7.org/fhir/CodeSystem/VetOrganizationCs"
+      }
+    ]
+  }
+}

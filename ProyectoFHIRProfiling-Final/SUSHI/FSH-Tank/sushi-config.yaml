@@ -1,0 +1,43 @@
+id: fhir.profiling.example
+canonical: https://example.org/fhir
+name: ExampleProfilingIG
+title: "HL7 FHIR Implementation Guide: FHIR profiling course project | Team A"
+description: An example of IG FHIR learning using SUSHI and FSH tools for the design and publication of HL7 FHIR profiles and implementation guides.
+fhirVersion: 4.0.1
+status: draft
+license: CC0-1.0
+date: 2024-02-15
+version: 0.1
+copyrightYear: 2024+
+releaseLabel: STU1
+publisher:
+  name: HL7 Colombia - Official Affiliate of Health Level Seven International
+  url: http://www.hl7co.org
+  email: nombre@example.com
+contact:
+  - name: Carolina Rodriguez
+    telecom:
+      - system: email
+        value: carolina.rodriguez@example.org
+        use: work
+  - name: Juan Pérez
+    telecom:
+      - system: email
+        value: juan.perez@example.org
+        use: work
+jurisdiction: urn:iso:std:iso:3166:CO "Colombia"
+# The menu property will be used to generate the input/menu.xml file.
+# The menu is represented as a simple structure where the YAML key
+# is the menu item name and the value is the URL. The IG publisher
+# currently only supports one level deep on sub-menus.
+# To provide a custom menu.xml file, do not include this property and
+# include a `menu.xml` file in input/includes.
+menu:
+  Home: index.html
+  Artifacts:
+    Profiles: artifacts.html#2
+    Extensions: artifacts.html#3
+    Value Sets: artifacts.html#4
+  Downloads: downloads.html
+  History: http://hl7.org/fhir/us/example/history.html
+ 
